@@ -1,5 +1,19 @@
+/** @format */
+
+import {
+  getCellElementAtIdx,
+  getCellElementList,
+  getCurrentTurnElement,
+  getGameStatusElement,
+} from "./selectors.js";
+
+console.log(getCellElementAtIdx(3));
+console.log(getCellElementList());
+console.log(getCurrentTurnElement());
+console.log(getGameStatusElement());
 /**
  * Global variables
+ *
  */
 let currentTurn = "cross";
 let isGameEnded = false;
